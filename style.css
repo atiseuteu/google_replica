@@ -1,0 +1,146 @@
+.navbar{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.navbar-item{
+    margin: 10px;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 35px;
+    padding-inline-start: 40px;
+}
+.search-bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    border-color: #888;
+    outline: #888;
+}
+.search-bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+.button-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display:flex;
+
+}
+.space{
+    margin: 100px;
+}
+.title-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 25px;
+}
+.find{
+    margin: 25px 35px;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+.left{
+    margin: 25px 35px;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+}
+.right{
+    margin: 25px 35px;
+    padding-right: 16px;
+    width:451px;
+    height:41px;
+}
+.row-input{
+    display:flex;
+    justify-content: row;
+    align-items: center;
+}
+.button-advanced{
+    margin: 25px 35px;
+    user-select: none;
+    line-height: 30px; 
+    height: 30px; 
+    min-width: 120px; 
+    text-align: center; 
+    display: inline-block; 
+    vertical-align: middle; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    font-size: 11px; 
+    font-weight: bold;
+    white-space: nowrap; 
+    margin-right: 16px; 
+    outline: none; 
+    box-shadow: none; 
+    background-color: #4d90fe; 
+    color: white; 
+    border: none; 
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.pp{
+   font-size:13px;
+   vertical-align: middle; 
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+}
